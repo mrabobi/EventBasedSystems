@@ -1,0 +1,24 @@
+Publication list: 
+{'stationid': 1, 'city': 'Constanta', 'temp': 0, 'rain': 0.7, 'wind': 0, 'direction': 'SE', 'date': '20.03.2021'}
+{'stationid': 2, 'city': 'Oradea', 'temp': 5, 'rain': 0.2, 'wind': 10, 'direction': 'S', 'date': '20.03.2021'}
+{'stationid': 3, 'city': 'Cluj', 'temp': 25, 'rain': 0.6, 'wind': 12, 'direction': 'S', 'date': '23.03.2021'}
+{'stationid': 4, 'city': 'Constanta', 'temp': 20, 'rain': 0.3, 'wind': 8, 'direction': 'SE', 'date': '27.03.2021'}
+{'stationid': 5, 'city': 'Botosani', 'temp': -15, 'rain': 0.8, 'wind': 4, 'direction': 'NE', 'date': '29.03.2021'}
+{'stationid': 6, 'city': 'Cluj', 'temp': 0, 'rain': 0.3, 'wind': 2, 'direction': 'NE', 'date': '22.03.2021'}
+{'stationid': 7, 'city': 'Botosani', 'temp': -15, 'rain': 0.9, 'wind': 10, 'direction': 'V', 'date': '22.03.2021'}
+{'stationid': 8, 'city': 'Botosani', 'temp': 20, 'rain': 0.2, 'wind': 16, 'direction': 'SE', 'date': '26.03.2021'}
+{'stationid': 9, 'city': 'Suceava', 'temp': 5, 'rain': 0.6, 'wind': 12, 'direction': 'NV', 'date': '22.03.2021'}
+{'stationid': 10, 'city': 'Brasov', 'temp': -5, 'rain': 0.3, 'wind': 4, 'direction': 'V', 'date': '20.03.2021'}
+
+
+Subscribe list: 
+[['city', '=', 'Timisoara'], ['rain', '>', 0.7], ['wind', '=', 16]]
+[['city', '=', 'Oradea'], ['rain', '>', 0.5], ['wind', '>', 8]]
+[['city', '=', 'Cluj'], ['rain', '<', 0.5], ['wind', '>', 4]]
+[['city', '=', 'Suceava'], ['rain', '<', 0.9], ['wind', '>', 24]]
+[['city', '=', 'Timisoara'], ['rain', '=', 0.0], ['wind', '>', 16]]
+[['city', '!=', 'Craiova'], ['rain', '<', 0.3], ['wind', '<', 8]]
+[['city', '=', 'Craiova'], ['wind', '<', 28], ['direction', '=', 'V']]
+[['city', '!=', 'Constanta'], ['wind', '=', 4]]
+[['city', '=', 'Cluj'], ['rain', '=', 0.8], ['wind', '<', 26]]
+[['city', '=', 'Constanta'], ['rain', '<', 0.4]]
